@@ -45,7 +45,6 @@ public class BugReport {
 
             // Запись в выходной файл
             BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath));
-//            OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(outputFilePath), StandardCharsets.UTF_8);
             writer.write("<details>\n<summary>Баг репорт №1 </summary>\n\n");
             writer.write("| № | проверка | результат |\n");
             writer.write("| --- | --- | --- |\n");
