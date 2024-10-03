@@ -1,6 +1,8 @@
 package org.example;
 
 import java.io.*;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -43,6 +45,7 @@ public class BugReport {
 
             // Запись в выходной файл
             BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath));
+//            OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(outputFilePath), StandardCharsets.UTF_8);
             writer.write("<details>\n<summary>Баг репорт №1 </summary>\n\n");
             writer.write("| № | проверка | результат |\n");
             writer.write("| --- | --- | --- |\n");
