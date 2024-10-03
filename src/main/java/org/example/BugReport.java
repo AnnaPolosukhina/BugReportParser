@@ -8,8 +8,8 @@ public class BugReport {
 
     public static void main(String[] args) {
 
-        String inputFilePath = "D:\\files\\input.txt";  // имя входного файла
-        String outputFilePath = "D:\\files\\output.txt";  // имя выходного файла
+        String inputFilePath = "D:\\files\\input.txt";  // имя входного файла - прописать полный путь
+        String outputFilePath = "D:\\files\\output.txt";  // имя выходного файла - прописать полный путь
 
         try {
             // Чтение входного файла
